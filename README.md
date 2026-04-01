@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍃 Artisan Iced Dirty Matcha Latte — Scrollytelling Landing Page
 
-## Getting Started
+A premium, Awwwards-level scrollytelling experience built with **Next.js 14**, **Framer Motion**, and **HTML5 Canvas**. This project features a 174-frame high-impact "time-freeze" image sequence that reacts dynamically to the user's scroll.
 
-First, run the development server:
+![Project Preview](https://via.placeholder.com/1200x600/050505/FFFFFF?text=Artisan+Matcha+Experience)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💎 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Cinematic Scrollytelling**: A seamless 174-frame image sequence rendered on Canvas for 60fps performance during scroll.
+- **Premium "Deep Black" Aesthetic**: Non-negotiable `#050505` background matching image sequences for a void-like, immersive feel.
+- **Luxury Typography**: Custom **Inter** font implementation with tight tracking and a minimalist tech/automotive aesthetic.
+- **Dynamic Content Beats**: Four narrative overlay stages that fade and move parallax-style as the user explores.
+- **Performance Optimized**: 
+    - Intelligent image preloading with a stylized progress bar and spinner.
+    - `useSpring` smoothed scroll interpolation for a "buttery" feel.
+    - Canvas `contain`/`cover` logic for responsive edge-to-edge rendering.
+- **Full Landing Page Structure**:
+    - **Luxury Navbar**: Glassmorphic, minimal sticky navigation.
+    - **Features Grid**: Animated reveal of product specs.
+    - **Story & Philosophy**: Elegant typography with ambient glowing effects.
+    - **Expertise FAQ**: Minimalist documentation section.
+    - **Join the Ritual**: High-conversion newsletter CTA.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js 14 (App Router)
+- **Animation**: Framer Motion
+- **Rendering**: HTML5 Canvas
+- **Styling**: Tailwind CSS
+- **Typography**: Google Fonts (Inter)
+- **Language**: TypeScript
 
-## Learn More
+## 🛠️ Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites
+- Node.js 18.x or later
+- npm or yarn
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/abdul-rahim-amir/matcha-coffee-landing-page.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd matcha-coffee-landing-page
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Project Structure
 
-## Deploy on Vercel
+- `src/components/MatchaScrollScene.tsx`: The core Canvas animation engine and scrollytelling logic.
+- `src/app/page.tsx`: The main landing page assembly.
+- `src/app/globals.css`: Global styles, custom scrollbar, and Tailwind configuration.
+- `public/matcha-sequence/`: Directory containing the 174-frame image JPG sequence.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Design Philosophy
+The design follows a "Less but Better" approach, inspired by brands like Apple and high-end automotive interfaces. Every interaction is designed to feel intentional, slow-paced, and exclusive.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+Built by [Antigravity](https://antigravity.google) — Specializing in High-Performance Creative Development.
