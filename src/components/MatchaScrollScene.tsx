@@ -236,7 +236,7 @@ function StorySection() {
             >
                 <span className="text-green-400 text-xs tracking-[0.6em] uppercase mb-16 block font-bold">Philosophy</span>
                 <h2 className="text-4xl md:text-6xl text-white font-medium tracking-tight leading-tight italic px-4">
-                    "Crafting the perfect Dirty Matcha is an act of defiance against the mundane. We trade speed for soul, and rush for ritual."
+                    &quot;Crafting the perfect Dirty Matcha is an act of defiance against the mundane. We trade speed for soul, and rush for ritual.&quot;
                 </h2>
                 <div className="mt-20 w-[1px] h-32 bg-gradient-to-b from-green-400 to-transparent mx-auto opacity-50" />
             </motion.div>
